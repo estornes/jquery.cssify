@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>jquery.cssify demo</title>
+
+<script src="jquery-1.8.1.min.js"></script>
+<script src="jquery.cssify.min.js"></script>
+
+<script type="text/javascript">
+
+$(function() {
+
+	$('#test').cssify({	// (default config:)
+
+						numberOfClassNames: 1, // to chain with a period char Example: div.firstClass.secondClass
+						includeParentCss: true, // DOM element path
+						includeId: false, // Example: div#myElement {}
+						includeTagName: true, // Example: div {}
+						nestRules: true, // nest with tabs by DOM element hierarchy
+						oneLineRules: false, // whole rule in a line or not
+						excludeTags: 'br,head' // HTML elements to skip
+					});
+});
+
+</script>
+</head>
+
+<body>
+	
+	<section id="test" class="root">
+
+		<a class="photo">
+			
+			<div id="next" class="blue">
+				
+				<div class="verified"></div>
+				<div class="new"></div>
+
+				<p>Hello world!</p>
+
+				<br>
+
+				<img src="somepic.png" alt="">
+			</div>
+		</a>
+
+		<a class="body mind">
+			
+			<div id="prev" class="red">
+				
+				<div class="note"></div>
+				<div class="color"></div>
+
+				<p>Bonjour le monde!</p>
+
+				<br class="end">
+			</div>
+		</a>	
+
+	</section>
+
+	<br>
+	
+	<section>¡Hola mundo!</section>
+	
+</body>
+</html>
