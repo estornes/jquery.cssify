@@ -112,6 +112,7 @@
 			
 			/**
 			 * Returns a period char separated CSS classes string.
+			 * @param {Number} n Number of class names to chain. Default or config if absent.
 			 * @returns {String}
 			 */
 			var buildClassList = function(n) {
