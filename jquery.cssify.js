@@ -3,7 +3,7 @@
  * Automatically creates empty CSS rules from HTML code.
  * 
  * Copyright (c) 2016 Héctor Ayestarán (http://www.programadorfreelance.es)
- * Dual licensed under the MIT and GPL licenses.
+ * Released under GPL License.
  */
 ;(function($, undefined) {
 
