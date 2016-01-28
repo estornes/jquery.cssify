@@ -14,7 +14,7 @@
     "licenses": [
         {
             "type": "GPL",
-            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+            "url": "https://github.com/estornes/jquery.cssify/blob/master/license.txt"
         }
     ],
     "download": "https://github.com/estornes/jquery.cssify/archive/master.zip",
