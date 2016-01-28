@@ -1,12 +1,12 @@
 {
-    "name": "CSSify",
+    "name": "cssify",
     "title": "jQuery CSSify rules",
     "description": "Automatically creates empty CSS rules from HTML code and sends them to your console. Makes the markup job faster.",
     "keywords": [
         "css",
         "markup"
     ],
-    "version": "1.0",
+    "version": "1.0.0",
     "author": {
         "name": "Héctor Ayestarán",
         "url": "http://www.programadorfreelance.es"
