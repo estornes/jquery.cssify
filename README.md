@@ -2,7 +2,7 @@
 
 A jQuery plugin (1.5+).
 Automatically creates empty CSS rules from HTML code and sends them to your console. 
-Makes the mark-up job faster.
+Makes the markup job faster.
 
 
 Javascript code
